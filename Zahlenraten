@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int geheim = 42;
+    int eingabe;
+        printf("Rate die geheime Zahl: ");
+    scanf("%d", &eingabe);
+        if (eingabe == geheim) {
+        printf("Richtig! Du hast die geheime Zahl gefunden.\n");
+    }
+    else if (eingabe < geheim) {
+        printf("Die Zahl ist zu klein.\n");
+    }
+    else {
+        printf("Die Zahl ist zu groß.\n");
+    }
+    return 0;
