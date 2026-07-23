@@ -14,4 +14,4 @@ int main() {
     else {
         printf("Die Zahl ist zu groß.\n");
     }
-    return 0;
+    return 0;./
