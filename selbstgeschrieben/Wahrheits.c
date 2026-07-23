@@ -16,5 +16,9 @@
         A = 1;
         B = 0;
         printf("%d | %d |    %d    |   %d   \n", A, B, A && B, A || B);
+
+        A = 1;
+        B = 1; 
+        printf("%d | %d |    %d    |   %d   \n", A, B, A && B, A || B);
     return 0;
     }
