@@ -1,4 +1,5 @@
 #include <stdio.h>
+
  int main() {
     int geheim = 42; 
     int eingabe; 
